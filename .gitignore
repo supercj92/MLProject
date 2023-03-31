@@ -1,2 +1,6 @@
 .idea
 /pytorch/data/
+/pytorch/__pycache__
+/damo/data/
+/tensorflow/data/
+/venv/
