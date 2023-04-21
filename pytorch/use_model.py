@@ -2,7 +2,7 @@ import torch
 from torchvision import datasets
 from torchvision.transforms import ToTensor
 
-from pytorch.train_model import NeuralNetwork
+from pytorch.clothes_classify_train_model import NeuralNetwork
 
 loadedModel = NeuralNetwork()
 loadedModel.load_state_dict(torch.load("model.pth"))
